@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.todo-app {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.todo-item {
+  margin: 20px 0px 20px 0px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.todo-item:hover {
+  border: 1px solid #555;
+}
+
+.todo-checkbox {
+  margin-right: 20px;
+  width: 1.6em;
+  height: 1.6em;
+}
+
+.todo-title {
+  flex-grow: 1;
+  height: 2em;
+  border: 0px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.2em;
+}
+
+.todo-title-done {
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+.todo-delete {
+  color: #ccc;
+}
+
+.todo-delete:hover {
+  color: #ff0000;
+}
